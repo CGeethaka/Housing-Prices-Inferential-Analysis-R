@@ -1,6 +1,6 @@
 # Housing Prices Inferential Analysis in R
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates **inferential analysis and regression modeling** on the **Boston Housing Dataset** using **R**.  
 The goal is to explore relationships between housing features (e.g., number of rooms, % lower status population, pupil–teacher ratio) and the **median house price (`MEDV`)**, and build predictive models using **linear regression**.
@@ -14,7 +14,7 @@ The analysis includes:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Boston Housing Dataset** ([Kaggle link](https://www.kaggle.com/datasets/schirmerchad/bostonhoustingmlnd?resource=download))  
 
@@ -39,9 +39,45 @@ This dataset contains **506 observations** of housing data in Boston suburbs. Ea
 | `LSTAT`  | % lower status population |
 | `MEDV`   | Median value of owner-occupied homes (Target variable) |
 
-> ⚠️ Note: Some variables such as race-related proxies (`B`) have ethical concerns. Use responsibly.
+
 
 ---
 
-## 🛠 Project Structure
+## Project Structure
+
+Housing_Prices_Inferential_Analysis/
+│
+├─ housing_analysis.R # Main R script with analysis, plots, and regression
+├─ housing.csv # Dataset (Boston Housing data)
+├─ README.md # Project documentation
+
+
+
+---
+
+## Analysis Steps
+
+1. **Load libraries**: `dplyr`, `ggplot2`, `readr`  
+2. **Load dataset** from CSV  
+3. **Inspect dataset**: `head()`, `str()`, `summary()`  
+4. **Descriptive statistics**: `summary()` for key variables (`RM`, `LSTAT`, `PTRATIO`, `MEDV`)  
+5. **Data visualization**:
+   - Histogram of `MEDV`  
+   - Scatter plots: `RM` vs `MEDV`, `LSTAT` vs `MEDV`  
+   - Boxplot: `PTRATIO` vs `MEDV`  
+6. **Correlation analysis** using `cor.test()`  
+7. **Regression modeling**:
+   - Simple linear regression: `MEDV ~ RM`  
+   - Multiple linear regression: `MEDV ~ RM + LSTAT + PTRATIO`  
+8. **Diagnostic plots** to assess model assumptions  
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/CGeethaka/Housing-Prices-Inferential-Analysis-R.git
+
 
