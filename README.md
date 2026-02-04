@@ -43,18 +43,6 @@ This dataset contains **506 observations** of housing data in Boston suburbs. Ea
 
 ---
 
-## Project Structure
-
-Housing_Prices_Inferential_Analysis/
-│
-├─ housing_analysis.R # Main R script with analysis, plots, and regression
-├─ housing.csv # Dataset (Boston Housing data)
-├─ README.md # Project documentation
-
-
-
----
-
 ## Analysis Steps
 
 1. **Load libraries**: `dplyr`, `ggplot2`, `readr`  
