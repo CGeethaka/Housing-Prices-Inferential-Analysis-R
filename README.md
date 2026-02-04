@@ -22,7 +22,7 @@ The analysis includes:
 
 <img width="397" height="375" alt="Rplot4" src="https://github.com/user-attachments/assets/034bb211-dae1-433d-8a3d-249ce78c8c3d" />
 
-<img width="397" height="375" alt="Rplot5" src="https://github.com/user-attachments/assets/7c21c214-c1a4-4fe5-8bfd-e9dfccca9701" />
+<img width="450" height="375" alt="Rplot5" src="https://github.com/user-attachments/assets/7c21c214-c1a4-4fe5-8bfd-e9dfccca9701" />
 
 
 
